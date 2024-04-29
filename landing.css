@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(219, 219, 219);
+    background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('FRIENDS.jpg');
+    background-size: cover; /* Ensure the background image covers the entire body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Set text color to contrast with the background */
+}
+
+h1{
+    font-size: 140px;
+}
+
+.ciudad img {
+    width: 200px; /* Set the width to 200 pixels */
+    height: auto; /* Maintain the aspect ratio */
+    /* Or you can set both width and height:
+    width: 200px;
+    height: 150px; */
+}
+.search-container {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #ff6105;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: auto;
+}

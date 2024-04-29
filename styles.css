@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 8%;
+    text-align: center;
+}
+
+.element{
+    border-radius: 3%;
+    background-color: beige;
+    margin: 5%;
+}
+
+.container{
+    margin: 5%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.text1{
+    margin: 5%;
+    text-align: center;
+}
+
+
+
