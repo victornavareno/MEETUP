@@ -1,11 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     height: 100vh;
     background-color: rgb(219, 219, 219);
     background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('./img/FRIENDS.jpg');
@@ -18,14 +14,37 @@ body {
 
 h1{
     font-size: 140px;
+    margin: 0;
+    padding: 0;
 }
 
-.ciudad img {
-    width: 200px; /* Set the width to 200 pixels */
-    height: auto; /* Maintain the aspect ratio */
-    /* Or you can set both width and height:
-    width: 200px;
-    height: 150px; */
+.container{
+    height: 70%;
+    display: grid;
+    grid-template-rows: 30% 10% 40%;
+    grid-template-columns: 3;
+}
+
+.webName{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.container .slogan{
+    justify-content: center;
+}
+.slogan{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.ciudades img{
+    width:  20%;
+    height: 100%;
+}
+.ciudades {
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .search-container {
     background-color: #fff;
