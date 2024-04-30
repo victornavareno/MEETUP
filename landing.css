@@ -1,71 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
+}
 body {
     font-family: Arial, sans-serif;
-   
     height: 100vh;
     background-color: rgb(219, 219, 219);
     background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('./img/FRIENDS.jpg');
     background-size: cover; /* Ensure the background image covers the entire body */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff; /* Set text color to contrast with the background */
-}
-
-h1{
-    font-size: 140px;
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    height: 70%;
     display: grid;
-    grid-template-rows: 30% 10% 40%;
-    grid-template-columns: 3;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 10% 60% 20%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+button{
+    background-color: orange;
+    border: 0;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.login{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-style: bold;
+    padding: 10%;
 }
 
 .webName{
-    grid-row-start: 1;
-    grid-row-end: 2;
+    font-size: 70px;
+    padding: 0;
+    color: rgb(255, 81, 0);
 }
-
-.container .slogan{
-    justify-content: center;
-}
-.slogan{
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.ciudades img{
-    width:  20%;
-    height: 100%;
-}
-.ciudades {
+.container{
+    padding: 0;
+    margin: 0;
     grid-row-start: 3;
     grid-row-end: 4;
-}
-.search-container {
-    background-color: #fff;
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-rows: 30% 10% 60%;
 }
 
-.search-input {
-    border: none;
-    padding: 10px;
-    width: 200px;
-    outline: none;
-}
 
-.search-button {
-    background-color: #ff6105;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    margin-left: auto;
+.ciudades{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 80% 20%;
+    padding: 0;
+    margin: 0;
+}
+.ciudad img{
+    height: 200px;
+    width: 180px;
 }
