@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: rgb(219, 219, 219);
-    background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('FRIENDS.jpg');
+    background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('./img/FRIENDS.jpg');
     background-size: cover; /* Ensure the background image covers the entire body */
     display: flex;
     justify-content: center;
