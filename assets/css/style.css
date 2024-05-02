@@ -109,16 +109,28 @@ img{
     left: 50%;
     max-width: 720px;
     width: 100%;
-    border: 2px solid #fff;
+    border: 4px solid #fff;
     transform: translate(-50%, -50%);
 }
 
 .form-popup .form-box{
     display: flex;
+    
 }
 
 .form-box .form-details{
+
+    color: white;
     max-width: 330px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/FRIENDS3.jpg");
+    background-size: cover;
+    background-position-x:center;
 }
 
 .form-box h2{
@@ -138,6 +150,14 @@ form .input-field {
     position: relative;
 }
 
+/*ADD ICON TO CLOSE BUTTON*/
+.form-popup .close-btn{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: grey;
+    cursor: pointer;
+}
 
 form .input-field input{
     height: 100%;
@@ -148,12 +168,11 @@ form .input-field input{
     border: 1px solid #717171;
 }
 
-.input-field input:focus{
-    border-color: #d46600;
-}
 .input-field input:is(:focus, :valid){
     padding: 16px 15px 0;
 }
+
+
 
 form .input-field label{
     position: absolute;
@@ -169,8 +188,45 @@ form .input-field label{
     
     font-size: 0.75rem;
     /*QUIZAS CAUSA PROBLEMAS*/
-    transform: translateY(-75%);
+    transform: translateY(-100%);
     color: rgb(253, 148, 0);
+}
+
+.form-box a{
+    color: orange;
+    text-decoration: none;
+}
+
+.form-box a:hover{
+    text-decoration: underline;
+}
+
+form button {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 14px 0;
+    border-radius: 3px;
+    margin: 25px 0;
+    color: white;
+    cursor: pointer;
+    background: orange;
+}
+
+.form-box .forgot-pass{
+    display: inline-flex;
+    margin-top: 14px;
+    font-size: 0.95rem;
+}
+
+.form-box .bottom-link{
+    text-align: center;
+}
+
+form button:hover{
+    background-color: rgb(255, 189, 67);
 }
 
 /*HERO*/
