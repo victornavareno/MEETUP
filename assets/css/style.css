@@ -1,0 +1,69 @@
+@import url('../css/general-sans.css');
+
+:root {
+    --font-family: sans-serif;
+    --font-size: 1rem;
+    --font-weight: 400;
+    --line-height: 1.5;
+    --color: #333;
+    --background-color: #fff;
+    --border-radius: 0.25rem;
+    --transition: all 0.3s linear;
+}
+
+
+.main-title{
+    color: white;
+}
+
+.slogan{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+}
+
+a:hover{
+    color: var(--color);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* NAVBAR*/
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: darkgray;
+}
+
+.navbar-nav .nav-link:active{
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+}
+
+/* BUTTON */
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: rgb(253, 118, 0);
+    border: 0;
+}
+
+.btn:hover{
+    background-color: rgb(255, 148, 48);
+    color: white;
+}
+
+/*HERO*/
+
+#hero{
+    background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(144, 93, 12, 0.792)), url('../images/FRIENDS.jpg');
+    background-size: cover;
+}
