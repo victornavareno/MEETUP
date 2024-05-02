@@ -148,13 +148,29 @@ form .input-field input{
     border: 1px solid #717171;
 }
 
+.input-field input:focus{
+    border-color: #d46600;
+}
+.input-field input:is(:focus, :valid){
+    padding: 16px 15px 0;
+}
+
 form .input-field label{
     position: absolute;
     top: 50%;
     left: 15px;
     color: #717171;
     pointer-events: none;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid) ~ label{
+    
+    font-size: 0.75rem;
+    /*QUIZAS CAUSA PROBLEMAS*/
+    transform: translateY(-75%);
+    color: rgb(253, 148, 0);
 }
 
 /*HERO*/
