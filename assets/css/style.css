@@ -255,8 +255,12 @@ form button {
     background: orange;
 }
 
-.form-popup .signup{
+.form-popup .signup, .form-popup.show-signup .login{
     display: none;
+}
+
+.form-popup.show-signup .signup{
+    display: flex;
 }
 
 .form-box :where(.forgot-pass, .policy-text){
