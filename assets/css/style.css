@@ -109,7 +109,15 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0;
+    pointer-events: none;
     backdrop-filter: blur(7px);
+    transition: 0.1s ease;
+}
+
+.show-popup .blur-bg-overlay{
+    opacity: 1;
+    pointer-events: auto;
 }
 
 
@@ -121,7 +129,14 @@ img{
     max-width: 720px;
     width: 100%;
     border: 4px solid #fff;
+    transform: translate(-50%, -200%);
+}
+
+.show-popup .form-popup{
+    opacity: 1;
+    pointer-events: auto;
     transform: translate(-50%, -50%);
+    transition: transform 0.3s ease, opacity 0.1s;
 }
 
 .form-popup .form-box{
