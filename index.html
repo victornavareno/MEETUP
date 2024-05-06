@@ -47,10 +47,14 @@
       </div>
     </nav>
 
-    <!--LOGIN POPUP FORM-->
+    <!--  BLUR BACKGROUND EFFECT -->
+    <div class="blur-bg-overlay"></div>
+
+    
+    <!--LOGIN AND SIGNUP POPUP FORMS-->
     <div class="form-popup">
       <span class="close-btn material-symbols-rounded">X</span>
-      <div class="form-box">
+      <div class="form-box login">
         <div class="form-details">
           <h2>
             Welcome Back!
@@ -79,7 +83,44 @@
         </div>
       </div>
       </div>
+
+      <div class="form-box signup">
+        <div class="form-details">
+          <h2>
+            Create an account
+          </h2>
+          <p>
+            Sign up using your personal information to join our community.
+          </p>
+      </div>
+      <div class="form-content">
+        <h2>SIGNUP</h2>
+        <form action="#">
+          <div class="input-field">
+            <input type="text" required>
+            <label>Enter your email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required>
+            <label>Create a password</label>
+          </div>
+          <div class="policy-text">
+            <input type="checkbox" id="policy">
+            <label for="policy">
+              I agree to the <a href="#">Terms of Service</a> 
+            </label>
+          </div>
+          <button type="submit">Sign Up</button>
+  
+        </form>
+        <div class="bottom-link">
+          Already have an account?
+          <a href="#">Login</a>
+        </div>
+      </div>
+      </div>
     </div>
+
 
    <!--HERO--->
    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
