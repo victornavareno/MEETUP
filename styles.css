@@ -26,5 +26,28 @@ h1{
     text-align: center;
 }
 
+.banner h2{
+    color: #fff;
+    font-size:  80px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1cm;
+}
+
+.sec{
+    background: #fff;
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec.content{
+    position:relative;
+    text-align:center;
+    width: 100%;
+}
+
 
 
