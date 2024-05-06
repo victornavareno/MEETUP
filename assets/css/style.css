@@ -243,6 +243,7 @@ form button {
 .form-popup .signup{
     display: none;
 }
+
 .form-box :where(.forgot-pass, .policy-text){
     display: inline-flex;
     margin-top: 14px;
@@ -274,4 +275,21 @@ form button:hover{
 #hero{
     background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(255, 157, 0, 0.402)), url('../images/FRIENDS.jpg');
     background-size: cover;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 760px){
+    .form-popup{
+        width: 95%;
+    }
+
+    .form-box .form-details{
+        display: none;
+    }
+
+    .form-box .form-content{
+        padding: 30px 40px;
+    }
+
 }
