@@ -313,3 +313,81 @@ form button:hover{
     }
 
 }
+
+.banner h2{
+    color: #fff;
+    background-color: orange;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1cm;
+}
+
+.sec{
+    background: orange;
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.abouttxt{
+    max-width: 800px;
+    margin:0 auto;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual ancho */
+    /* gap: 20px; /* Espacio entre los elementos */
+/* }
+
+.about-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #007bff;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} */ 
