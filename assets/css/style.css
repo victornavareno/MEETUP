@@ -320,13 +320,19 @@ form button:hover{
     font-size: 80px;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1cm;
+    min-height: 15vh;
+}
+
+.sec1{
+    margin-top: 70px;
+    min-height: 20vh; 
+    text-align: center;
+    position: relative;
 }
 
 .sec{
     background: orange;
     padding: 100px;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,6 +348,26 @@ form button:hover{
     max-width: 800px;
     margin:0 auto;
 }
+
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid gap: 30px;
+    max-width: 100%;
+}
+
+.services .box{
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 20px 25px;
+}
+
+.services .box .iconBox{
+    margin-top: 25px;
+}
+
 
 /* body {
     font-family: Arial, sans-serif;
