@@ -352,8 +352,8 @@ form button:hover{
 .services{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid gap: 30px;
-    max-width: 100%;
+    /* grid gap: 30px;
+    max-width: 100%; */
 }
 
 .services .box{
@@ -368,52 +368,53 @@ form button:hover{
     margin-top: 25px;
 }
 
-
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* slider */
+ .swiper-button-prev::after{
+    font-size: 15px;
 }
 
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+.swiper-button-next::after{
+    font-size: 505px;
 }
 
-.about-us {
-    padding: 50px 0;
+.swiper-button-prev{
+    color: #db341b;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.swiper-button-next{
+   color: black;
 }
 
-h2 {
-    color: #007bff;
+.header-content{
+    margin-top: 200px;
+    padding-bottom: 50px;
 }
 
-.about-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual ancho */
-    /* gap: 20px; /* Espacio entre los elementos */
-/* }
-
-.about-item {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
+.slider{
+    display: flex;
+    align-items: center;
 }
 
-h3 {
-    color: #007bff;
+.slider-txt{
+    margin-left: 85px;
+    width: 50%;
 }
 
-footer {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-} */ 
+.slider-txt h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-txt p{
+    font-size: 18px;
+}
+
+.slider-img{
+    width: 50%;
+}
+
+.slider-img img{
+    margin-right: 150px;
+    width: 550px;
+} 
