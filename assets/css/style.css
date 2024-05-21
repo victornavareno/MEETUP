@@ -368,16 +368,9 @@ form button:hover{
     margin-top: 25px;
 }
 
+
 /* slider */
- .swiper-button-prev::after{
-    font-size: 15px;
-}
-
-.swiper-button-next::after{
-    font-size: 505px;
-}
-
-.swiper-button-prev{
+/* .swiper-button-prev{
     color: #db341b;
 }
 
@@ -385,8 +378,63 @@ form button:hover{
    color: black;
 }
 
+ .swiper-button-prev::after{
+    font-size: 15px;
+}
+
+.swiper-button-next::after{
+    font-size: 505px;
+} */
+
+/* Contenedor principal */
+    .header-content {
+      /* text-align: center; */
+      padding: 20px;
+    }
+
+    /* Estilo para el título */
+    .header-content h1 {
+      font-size: 3rem; /* Tamaño de fuente grande */
+      color:#333; /* Color del texto */
+      margin-bottom: 20px; /* Espacio debajo del título */
+      font-weight: bold; /* Negrita */
+      text-transform: uppercase; /* Mayúsculas */
+      letter-spacing: 3px; /* Espaciado entre letras */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+      display: inline-block;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+
+    /* Estilo para la sección del slider */
+    .swiper-container {
+      width: 100%;
+      height: 400px; /* Ajusta la altura según tus necesidades */
+      margin-bottom: 20px;
+    }
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color:orange;/* rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; 
+}
+
 .header-content{
-    margin-top: 200px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -401,7 +449,8 @@ form button:hover{
 }
 
 .slider-txt h1{
-    font-size: 70px;
+    margin-top: 20px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -411,10 +460,30 @@ form button:hover{
 }
 
 .slider-img{
-    width: 50%;
+    width: 30%;
+    /* width: 300px; */
+    margin: 0 auto;
+    /* background: grey;
+    padding: 10px; */
+    /* box-shadow: 0px 20px 25px; */
 }
 
 .slider-img img{
     margin-right: 150px;
     width: 550px;
 } 
+
+.events-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.events-button:hover {
+    background-color: orange;
+}
