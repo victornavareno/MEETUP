@@ -292,6 +292,21 @@ form button:hover{
 
 /*HERO*/
 
+.banner-text{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.banner-slogan{
+    size: 20px;
+    color: white;
+    padding-left: 10%;
+}
 #hero{
     background: linear-gradient(to bottom right, rgba(52, 152, 219, 0), rgba(255, 157, 0, 0.402)), url('../images/FRIENDS.jpg');
     background-size: cover;
